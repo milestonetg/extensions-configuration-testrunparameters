@@ -1,5 +1,7 @@
 # extensions-configuration-testrunparameters
 
+[![Build Status](https://milestonetg.visualstudio.com/Milestone/_apis/build/status/milestonetg.extensions-configuration-testrunparameters?branchName=master)](https://milestonetg.visualstudio.com/Milestone/_build/latest?definitionId=42&branchName=master)
+
 A [Microsoft.Extensions.Configuration](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration) provider for [MSTest](https://github.com/microsoft/testfx) TestRunParameters. 
 
 ## Example
