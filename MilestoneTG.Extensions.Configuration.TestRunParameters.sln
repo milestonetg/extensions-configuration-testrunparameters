@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MilestoneTG.Extensions.Configuration.TestRunParameters", "MilestoneTG.Extensions.Configuration.TestRunParameters\MilestoneTG.Extensions.Configuration.TestRunParameters.csproj", "{5CB89E8D-AB93-47BE-89A5-0EF8D7416051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilestoneTG.Extensions.Configuration.TestRunParameters.Tests", "MilestoneTG.Extensions.Configuration.TestRunParameters.Tests\MilestoneTG.Extensions.Configuration.TestRunParameters.Tests.csproj", "{40E74F09-F99C-46F6-ABE4-C0343188682F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CB89E8D-AB93-47BE-89A5-0EF8D7416051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB89E8D-AB93-47BE-89A5-0EF8D7416051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB89E8D-AB93-47BE-89A5-0EF8D7416051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB89E8D-AB93-47BE-89A5-0EF8D7416051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E74F09-F99C-46F6-ABE4-C0343188682F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E74F09-F99C-46F6-ABE4-C0343188682F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E74F09-F99C-46F6-ABE4-C0343188682F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E74F09-F99C-46F6-ABE4-C0343188682F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DFEFFF5-B533-4EB5-8CE9-A3366D6E938F}
+	EndGlobalSection
+EndGlobal
