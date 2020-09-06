@@ -9,21 +9,25 @@ variables:
 
 steps:
 - task: DotNetCoreCLI@2
+  displayName: 'dotnet build'
   inputs:
     command: 'build'
     projects: '**/*.csproj'
     arguments: '--configuration $(BuildConfiguration)'
 - task: DotNetCoreCLI@2
+  displayName: 'dotnet test'
   inputs:
     command: 'test'
     projects: '**/*.Tests.csproj'
 - task: DotNetCoreCLI@2
+  displayName: 'dotnet pack'
   inputs:
     command: 'pack'
     packagesToPack: '**/MilestoneTG.Extensions.Configuration.TestRunParameters.csproj'
     nobuild: true
     versioningScheme: 'off'
 - task: PublishBuildArtifacts@1
+  displayName: 'Publish build artifacts'
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
